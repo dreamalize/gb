@@ -9,5 +9,5 @@ def profit(salary):
 ba_salary = 165700
 pm_salary = 1957000
 
-print("Total salary for Business Analyst:", profit(ba_salary))
+print("Total salary for Business Analyst: {}".format(profit(ba_salary)))
 print("Total salary for Product Manager:", profit(pm_salary))
